@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Poppins', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  border: none;
+  min-height: 100vh;
+  display: block;
+}
+
+/* Custom Toastify Premium Success Styles */
+.Toastify__toast-theme--light.Toastify__toast--success,
+.Toastify__toast--success {
+  background-color: #0D4F3C !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  border: 1px solid #1A6E38 !important;
+  box-shadow: 0 8px 24px rgba(13, 79, 60, 0.3) !important;
+}
+
+.Toastify__toast-theme--light.Toastify__toast--success .Toastify__close-button,
+.Toastify__toast--success .Toastify__close-button {
+  color: #ffffff !important;
+  opacity: 0.8;
+}
+
+.Toastify__toast-theme--light.Toastify__toast--success .Toastify__close-button:hover,
+.Toastify__toast--success .Toastify__close-button:hover {
+  opacity: 1;
+}
+
+.Toastify__toast-theme--light.Toastify__toast--success .Toastify__progress-bar,
+.Toastify__toast--success .Toastify__progress-bar {
+  background: #a7f3d0 !important; /* Light green progress bar */
+  height: 4px !important;
+  border-radius: 0 0 12px 12px !important;
+}
+
+.Toastify__toast-theme--light.Toastify__toast--success svg,
+.Toastify__toast--success svg {
+  fill: #ffffff !important; /* Make success icon white */
+}
